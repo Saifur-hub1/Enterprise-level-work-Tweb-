@@ -1,0 +1,68 @@
+# Node.js dependencies
+/node_modules
+/.pnp
+.pnp.js
+
+# Vite build output
+/dist
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Optional REPL history
+.node_repl_history
+
+# Output of 'npm pack'
+*.tgz
+
+# Yarn Integrity file
+.yarn-integrity
+
+# dotenv environment variables file
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# log files
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript cache and build files
+/*.tsbuildinfo
+/*.tscache
+/.turbo
+
+# Vite HMR files
+.vite
+
+# IDE and OS specific files
+.vscode
+.idea
+.DS_Store
+Thumbs.db
+
+# macOS directory metadata
+.DS_Store
+
+# Windows directory metadata
+Thumbs.db
+
+# Vite dev server lock file
+.vite/deps_temp
+
+# Ignore lock files
+package-lock.json
+yarn.lock
+
+# Other npm files
+.npmrc
+.npmignore
